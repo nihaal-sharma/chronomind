@@ -1,0 +1,452 @@
+Build a complete full-stack web application called "ChronoMind: The Neuromorphic Future Simulation Engine".
+
+PROJECT VISION
+
+ChronoMind is inspired by the concept of Dr. Strange using the Time Stone to explore millions of possible futures before making a decision.
+
+The application MUST NOT claim to actually predict the future. Instead, it should simulate possible future outcomes using a brain-inspired neuromorphic architecture based on memory networks, associative reasoning, probabilistic branching, and adaptive learning.
+
+The experience should make users feel like they are exploring alternate realities through a mystical neural interface.
+
+The project must be hackathon-ready, visually impressive, and fully functional.
+
+========================================================
+CORE USER FLOW
+========================================================
+
+1. User enters:
+   - Current Situation
+   - Possible Decision(s)
+   - Optional Context
+
+Example:
+
+Current Situation:
+"I am a first-year computer science student."
+
+Decision Options:
+- Learn AI
+- Learn Cybersecurity
+- Learn Web Development
+
+2. System activates relevant memories and concepts.
+
+3. System generates hundreds of possible future branches.
+
+4. System evaluates probabilities.
+
+5. System visualizes branching timelines.
+
+6. System presents:
+   - Most Likely Future
+   - Top 5 Futures
+   - Rare Futures
+   - Probability Scores
+   - Explanations
+
+7. User can compare alternate futures.
+
+========================================================
+TECH STACK
+========================================================
+
+Frontend:
+- React
+- TypeScript
+- TailwindCSS
+- Framer Motion
+- React Flow
+
+Backend:
+- Python
+- FastAPI
+
+Data Layer:
+- NetworkX
+- JSON storage
+
+Visualization:
+- React Flow
+- D3.js if necessary
+
+AI Components:
+- Sentence Transformers
+- NetworkX graph traversal
+- Probabilistic branching engine
+- Hebbian-learning-inspired connection strengthening
+
+Deployment:
+- Docker-ready
+- Simple local deployment
+
+========================================================
+VISUAL THEME
+========================================================
+
+The application should be heavily inspired by the aesthetic of mystical time manipulation and alternate realities.
+
+DO NOT use Marvel copyrighted assets.
+
+Create an original visual language inspired by:
+
+- Circular magical interfaces
+- Rotating energy rings
+- Glowing emerald neural pathways
+- Floating memory nodes
+- Cosmic timelines
+- Neural constellations
+- Branching realities
+- Time manipulation dashboards
+
+Color Palette:
+
+Primary:
+- Emerald Green
+- Neon Green
+
+Secondary:
+- Dark Gray
+- Black
+
+Accent:
+- Gold
+
+Background:
+- Animated starfield
+- Floating particles
+- Neural constellations
+
+The interface should look like a futuristic magical operating system used to explore alternate futures.
+
+========================================================
+LANDING PAGE
+========================================================
+
+Display:
+
+Title:
+ChronoMind
+
+Subtitle:
+Explore Thousands of Possible Futures
+
+Animated central portal.
+
+Animated branching timelines in the background.
+
+Button:
+"Enter the Time Nexus"
+
+Smooth cinematic transitions.
+
+========================================================
+FUTURE SIMULATION DASHBOARD
+========================================================
+
+Create a main dashboard containing:
+
+1. Scenario Input Panel
+
+Fields:
+- Current Situation
+- Decision Options
+- Additional Context
+
+Button:
+Generate Futures
+
+2. Simulation Output Panel
+
+Displays:
+- Timeline Network
+- Probability Rankings
+- Future Explanations
+- Activated Memories
+
+========================================================
+MEMORY CORTEX
+========================================================
+
+Create a graph-based memory system.
+
+Represent concepts as connected nodes.
+
+Example:
+
+AI
+→ Machine Learning
+→ Deep Learning
+→ Jobs
+→ Research
+
+Cybersecurity
+→ SOC
+→ Pentesting
+→ Certifications
+→ Threat Hunting
+
+Each node contains:
+
+- Name
+- Weight
+- Activation Score
+- Connection Strength
+
+Display these visually.
+
+========================================================
+NEURAL ACTIVATION ENGINE
+========================================================
+
+When a scenario is submitted:
+
+1. Extract relevant concepts.
+2. Activate matching memory nodes.
+3. Spread activation through related nodes.
+
+Example:
+
+Input:
+Learn AI
+
+Activated:
+Machine Learning
+Research
+Engineering
+Startups
+Automation
+
+Visual Effects:
+
+- Node glow
+- Pulse animations
+- Activation spreading through edges
+
+========================================================
+TIMELINE GENERATOR
+========================================================
+
+Generate future branches from activated memories.
+
+Example:
+
+Current State
+|
+├── Learn AI
+│   ├── AI Engineer
+│   ├── Research Scientist
+│   └── Startup Founder
+|
+├── Learn Cybersecurity
+│   ├── Security Analyst
+│   ├── Red Team Engineer
+│   └── Consultant
+
+Generate at least:
+- 100 futures internally
+- Display top 10 futures
+
+Each future should contain:
+- Timeline
+- Probability
+- Impact Score
+- Confidence Score
+
+========================================================
+PROBABILITY ENGINE
+========================================================
+
+Assign probabilities using:
+
+- Node weights
+- Activation strength
+- Historical associations
+- Connection strengths
+
+Display:
+
+Probability %
+Confidence %
+Impact Rating
+
+========================================================
+TIMELINE VISUALIZATION
+========================================================
+
+Use React Flow.
+
+Requirements:
+
+- Current state in center
+- Futures branch outward
+- Animated glowing edges
+- Hoverable nodes
+- Expandable branches
+- Zoom and pan support
+
+Node Details:
+
+- Title
+- Description
+- Probability
+- Impact
+
+========================================================
+TIME STONE MODE
+========================================================
+
+Create a signature feature.
+
+Button:
+
+"View 14,000,605 Futures"
+
+When pressed:
+
+1. Trigger cinematic animation.
+2. Timeline rapidly expands.
+3. Hundreds of branches appear.
+4. Nodes pulse with energy.
+5. Reality network fills the screen.
+6. System simulates thousands of futures.
+7. Network collapses.
+
+Final Result:
+
+"Out of 14,000,605 simulated futures..."
+
+Display:
+
+- Most Likely Future
+- Top 5 Futures
+- Rare Futures
+
+This should be the most visually impressive feature in the application.
+
+========================================================
+HEBBIAN LEARNING
+========================================================
+
+Implement:
+
+"Neurons that fire together wire together."
+
+Whenever nodes activate together repeatedly:
+
+connection_strength += learning_rate
+
+Persist learned weights.
+
+Display:
+
+Learning Progress
+Strengthened Connections
+Most Active Memories
+
+========================================================
+FUTURE COMPARISON TOOL
+========================================================
+
+Allow comparison of two decisions.
+
+Example:
+
+AI vs Cybersecurity
+
+Compare:
+
+- Opportunity
+- Demand
+- Growth
+- Risk
+- Stability
+- Income Potential
+
+Display:
+
+Radar Chart
+Side-by-Side Comparison
+
+========================================================
+EXPLAINABILITY ENGINE
+========================================================
+
+Every generated future must include:
+
+Why this outcome appeared.
+
+Show:
+
+- Activated concepts
+- Related memories
+- Strongest connections
+- Probability reasoning
+- Timeline path
+
+========================================================
+ADVANCED ANIMATIONS
+========================================================
+
+Implement:
+
+- Circular rotating energy rings
+- Timeline growth effects
+- Reality branching effects
+- Portal transitions
+- Particle systems
+- Energy pulse animations
+- Neural signal propagation
+- Reality collapse animations
+
+The application should feel alive.
+
+========================================================
+NEURAL UNIVERSE VIEW
+========================================================
+
+Create an optional full-screen mode.
+
+Display:
+
+1. Memory Cortex
+2. Neural Activations
+3. Timeline Branches
+
+All updating live.
+
+The effect should resemble watching a living digital brain exploring alternate realities.
+
+========================================================
+API REQUIREMENTS
+========================================================
+
+Create FastAPI endpoints:
+
+POST /simulate
+POST /activate
+POST /generate-timelines
+POST /compare
+GET /memory-graph
+GET /top-futures
+
+========================================================
+DELIVERABLES
+========================================================
+
+Generate:
+
+- Complete frontend code
+- Complete backend code
+- Folder structure
+- API endpoints
+- Memory graph implementation
+- Timeline generator
+- Probability engine
+- Hebbian learning system
+- React Flow visualization
+- Time Stone mode
+- Docker configuration
+- Sample data
+- README
+
+The final result should be a fully functional, visually stunning, hackathon-ready neuromorphic future simulation platform that demonstrates memory activation, associative reasoning, timeline generation, probabilistic future exploration, and adaptive learning through an immersive alternate-reality experience.

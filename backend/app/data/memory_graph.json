@@ -1,0 +1,1082 @@
+{
+  "nodes": [
+    {
+      "id": "ai",
+      "name": "Artificial Intelligence",
+      "domain": "technology",
+      "weight": 1.0,
+      "description": "The field of creating intelligent machines",
+      "keywords": [
+        "ai",
+        "artificial intelligence",
+        "smart",
+        "intelligent"
+      ]
+    },
+    {
+      "id": "ml",
+      "name": "Machine Learning",
+      "domain": "technology",
+      "weight": 0.95,
+      "description": "Algorithms that learn from data",
+      "keywords": [
+        "machine learning",
+        "ml",
+        "algorithms",
+        "data"
+      ]
+    },
+    {
+      "id": "dl",
+      "name": "Deep Learning",
+      "domain": "technology",
+      "weight": 0.9,
+      "description": "Neural networks with multiple layers",
+      "keywords": [
+        "deep learning",
+        "neural networks",
+        "dl",
+        "layers"
+      ]
+    },
+    {
+      "id": "nlp",
+      "name": "Natural Language Processing",
+      "domain": "technology",
+      "weight": 0.85,
+      "description": "Understanding and generating human language",
+      "keywords": [
+        "nlp",
+        "language",
+        "text",
+        "chatbot"
+      ]
+    },
+    {
+      "id": "cv",
+      "name": "Computer Vision",
+      "domain": "technology",
+      "weight": 0.85,
+      "description": "Teaching machines to see and understand images",
+      "keywords": [
+        "computer vision",
+        "image",
+        "video",
+        "detection"
+      ]
+    },
+    {
+      "id": "robotics",
+      "name": "Robotics",
+      "domain": "technology",
+      "weight": 0.8,
+      "description": "Building and programming robots",
+      "keywords": [
+        "robotics",
+        "robots",
+        "automation",
+        "hardware"
+      ]
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science",
+      "domain": "technology",
+      "weight": 0.9,
+      "description": "Extracting insights from data",
+      "keywords": [
+        "data science",
+        "analytics",
+        "statistics",
+        "insights"
+      ]
+    },
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity",
+      "domain": "technology",
+      "weight": 1.0,
+      "description": "Protecting systems from digital threats",
+      "keywords": [
+        "cybersecurity",
+        "security",
+        "hacking",
+        "protection"
+      ]
+    },
+    {
+      "id": "soc",
+      "name": "Security Operations Center",
+      "domain": "cybersecurity",
+      "weight": 0.85,
+      "description": "Monitoring and responding to security incidents",
+      "keywords": [
+        "soc",
+        "monitoring",
+        "incident response",
+        "alerts"
+      ]
+    },
+    {
+      "id": "pentesting",
+      "name": "Penetration Testing",
+      "domain": "cybersecurity",
+      "weight": 0.9,
+      "description": "Simulating attacks to find vulnerabilities",
+      "keywords": [
+        "pentesting",
+        "penetration testing",
+        "ethical hacking",
+        "vulnerabilities"
+      ]
+    },
+    {
+      "id": "threat_hunting",
+      "name": "Threat Hunting",
+      "domain": "cybersecurity",
+      "weight": 0.85,
+      "description": "Proactively searching for threats",
+      "keywords": [
+        "threat hunting",
+        "threats",
+        "proactive",
+        "hunting"
+      ]
+    },
+    {
+      "id": "certifications",
+      "name": "Certifications",
+      "domain": "career",
+      "weight": 0.7,
+      "description": "Professional certifications in tech",
+      "keywords": [
+        "certifications",
+        "certs",
+        "cissp",
+        "ceh",
+        "comptia"
+      ]
+    },
+    {
+      "id": "web_dev",
+      "name": "Web Development",
+      "domain": "technology",
+      "weight": 0.95,
+      "description": "Building websites and web applications",
+      "keywords": [
+        "web development",
+        "web dev",
+        "websites",
+        "frontend",
+        "backend"
+      ]
+    },
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "domain": "technology",
+      "weight": 0.85,
+      "description": "Building user interfaces",
+      "keywords": [
+        "frontend",
+        "react",
+        "ui",
+        "ux",
+        "css",
+        "javascript"
+      ]
+    },
+    {
+      "id": "backend_dev",
+      "name": "Backend Development",
+      "domain": "technology",
+      "weight": 0.85,
+      "description": "Server-side logic and APIs",
+      "keywords": [
+        "backend",
+        "api",
+        "server",
+        "database",
+        "python",
+        "node"
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud Computing",
+      "domain": "technology",
+      "weight": 0.9,
+      "description": "Using remote servers for computing",
+      "keywords": [
+        "cloud",
+        "aws",
+        "azure",
+        "gcp",
+        "serverless"
+      ]
+    },
+    {
+      "id": "devops",
+      "name": "DevOps",
+      "domain": "technology",
+      "weight": 0.85,
+      "description": "Bridging development and operations",
+      "keywords": [
+        "devops",
+        "ci/cd",
+        "deployment",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain",
+      "domain": "technology",
+      "weight": 0.7,
+      "description": "Distributed ledger technology",
+      "keywords": [
+        "blockchain",
+        "crypto",
+        "decentralized",
+        "web3"
+      ]
+    },
+    {
+      "id": "ai_engineer",
+      "name": "AI Engineer",
+      "domain": "career",
+      "weight": 0.95,
+      "description": "Building and deploying AI systems",
+      "keywords": [
+        "ai engineer",
+        "ml engineer",
+        "ai developer"
+      ]
+    },
+    {
+      "id": "research_scientist",
+      "name": "Research Scientist",
+      "domain": "career",
+      "weight": 0.85,
+      "description": "Advancing the frontiers of knowledge",
+      "keywords": [
+        "researcher",
+        "scientist",
+        "phd",
+        "academic",
+        "papers"
+      ]
+    },
+    {
+      "id": "startup_founder",
+      "name": "Startup Founder",
+      "domain": "career",
+      "weight": 0.8,
+      "description": "Creating and leading a new company",
+      "keywords": [
+        "startup",
+        "founder",
+        "entrepreneur",
+        "business"
+      ]
+    },
+    {
+      "id": "security_analyst",
+      "name": "Security Analyst",
+      "domain": "career",
+      "weight": 0.85,
+      "description": "Analyzing and defending against threats",
+      "keywords": [
+        "security analyst",
+        "analyst",
+        "defense"
+      ]
+    },
+    {
+      "id": "red_team",
+      "name": "Red Team Engineer",
+      "domain": "career",
+      "weight": 0.9,
+      "description": "Simulating advanced attacks",
+      "keywords": [
+        "red team",
+        "offensive security",
+        "attacker"
+      ]
+    },
+    {
+      "id": "consultant",
+      "name": "Security Consultant",
+      "domain": "career",
+      "weight": 0.8,
+      "description": "Advising organizations on security",
+      "keywords": [
+        "consultant",
+        "advisor",
+        "advisory"
+      ]
+    },
+    {
+      "id": "full_stack",
+      "name": "Full Stack Developer",
+      "domain": "career",
+      "weight": 0.9,
+      "description": "Building complete web applications",
+      "keywords": [
+        "full stack",
+        "fullstack",
+        "developer"
+      ]
+    },
+    {
+      "id": "jobs",
+      "name": "Job Market",
+      "domain": "economy",
+      "weight": 0.8,
+      "description": "Employment opportunities and trends",
+      "keywords": [
+        "jobs",
+        "employment",
+        "hiring",
+        "market"
+      ]
+    },
+    {
+      "id": "salary",
+      "name": "Salary & Income",
+      "domain": "economy",
+      "weight": 0.75,
+      "description": "Compensation and earning potential",
+      "keywords": [
+        "salary",
+        "income",
+        "pay",
+        "compensation",
+        "money"
+      ]
+    },
+    {
+      "id": "growth",
+      "name": "Industry Growth",
+      "domain": "economy",
+      "weight": 0.8,
+      "description": "Expansion and growth of industries",
+      "keywords": [
+        "growth",
+        "expanding",
+        "booming",
+        "rising"
+      ]
+    },
+    {
+      "id": "automation",
+      "name": "Automation",
+      "domain": "technology",
+      "weight": 0.85,
+      "description": "Replacing human tasks with machines",
+      "keywords": [
+        "automation",
+        "automate",
+        "replace",
+        "efficiency"
+      ]
+    },
+    {
+      "id": "research",
+      "name": "Research & Academia",
+      "domain": "career",
+      "weight": 0.8,
+      "description": "Academic research and teaching",
+      "keywords": [
+        "research",
+        "academia",
+        "university",
+        "professor"
+      ]
+    },
+    {
+      "id": "innovation",
+      "name": "Innovation",
+      "domain": "general",
+      "weight": 0.75,
+      "description": "Creating new ideas and technologies",
+      "keywords": [
+        "innovation",
+        "creative",
+        "new",
+        "breakthrough"
+      ]
+    },
+    {
+      "id": "networking",
+      "name": "Professional Networking",
+      "domain": "career",
+      "weight": 0.6,
+      "description": "Building professional relationships",
+      "keywords": [
+        "networking",
+        "connections",
+        "linkedin",
+        "community"
+      ]
+    },
+    {
+      "id": "remote_work",
+      "name": "Remote Work",
+      "domain": "career",
+      "weight": 0.7,
+      "description": "Working from anywhere",
+      "keywords": [
+        "remote",
+        "work from home",
+        "distributed",
+        "freelance"
+      ]
+    },
+    {
+      "id": "mobile_dev",
+      "name": "Mobile Development",
+      "domain": "technology",
+      "weight": 0.8,
+      "description": "Building mobile applications",
+      "keywords": [
+        "mobile",
+        "ios",
+        "android",
+        "app development"
+      ]
+    },
+    {
+      "id": "game_dev",
+      "name": "Game Development",
+      "domain": "technology",
+      "weight": 0.75,
+      "description": "Creating video games",
+      "keywords": [
+        "game dev",
+        "games",
+        "unity",
+        "unreal"
+      ]
+    },
+    {
+      "id": "quantum",
+      "name": "Quantum Computing",
+      "domain": "technology",
+      "weight": 0.65,
+      "description": "Computing using quantum mechanics",
+      "keywords": [
+        "quantum",
+        "qubits",
+        "quantum computing"
+      ]
+    },
+    {
+      "id": "iot",
+      "name": "Internet of Things",
+      "domain": "technology",
+      "weight": 0.7,
+      "description": "Connected devices and sensors",
+      "keywords": [
+        "iot",
+        "sensors",
+        "connected devices",
+        "smart home"
+      ]
+    },
+    {
+      "id": "product_mgmt",
+      "name": "Product Management",
+      "domain": "career",
+      "weight": 0.75,
+      "description": "Leading product development",
+      "keywords": [
+        "product manager",
+        "pm",
+        "product management"
+      ]
+    },
+    {
+      "id": "leadership",
+      "name": "Tech Leadership",
+      "domain": "career",
+      "weight": 0.7,
+      "description": "Leading technology teams",
+      "keywords": [
+        "leadership",
+        "cto",
+        "tech lead",
+        "manager"
+      ]
+    },
+    {
+      "id": "open_source",
+      "name": "Open Source",
+      "domain": "technology",
+      "weight": 0.65,
+      "description": "Contributing to open source projects",
+      "keywords": [
+        "open source",
+        "github",
+        "contribute",
+        "community"
+      ]
+    },
+    {
+      "id": "ethics",
+      "name": "AI Ethics",
+      "domain": "general",
+      "weight": 0.6,
+      "description": "Ethical considerations in AI",
+      "keywords": [
+        "ethics",
+        "bias",
+        "fairness",
+        "responsible ai"
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education & Learning",
+      "domain": "general",
+      "weight": 0.7,
+      "description": "Continuous learning and education",
+      "keywords": [
+        "education",
+        "learning",
+        "courses",
+        "degree",
+        "student"
+      ]
+    },
+    {
+      "id": "freelance",
+      "name": "Freelancing",
+      "domain": "career",
+      "weight": 0.7,
+      "description": "Independent contract work",
+      "keywords": [
+        "freelance",
+        "contract",
+        "independent",
+        "gig"
+      ]
+    },
+    {
+      "id": "data_engineer",
+      "name": "Data Engineer",
+      "domain": "career",
+      "weight": 0.85,
+      "description": "Building data pipelines and infrastructure",
+      "keywords": [
+        "data engineer",
+        "pipelines",
+        "etl",
+        "data infrastructure"
+      ]
+    },
+    {
+      "id": "cloud_architect",
+      "name": "Cloud Architect",
+      "domain": "career",
+      "weight": 0.85,
+      "description": "Designing cloud infrastructure",
+      "keywords": [
+        "cloud architect",
+        "solutions architect",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "competition",
+      "name": "Market Competition",
+      "domain": "economy",
+      "weight": 0.7,
+      "description": "Competitive landscape in tech",
+      "keywords": [
+        "competition",
+        "competitive",
+        "saturated",
+        "crowded"
+      ]
+    },
+    {
+      "id": "stability",
+      "name": "Career Stability",
+      "domain": "career",
+      "weight": 0.75,
+      "description": "Job security and stability",
+      "keywords": [
+        "stability",
+        "secure",
+        "reliable",
+        "consistent"
+      ]
+    },
+    {
+      "id": "risk",
+      "name": "Risk & Uncertainty",
+      "domain": "general",
+      "weight": 0.6,
+      "description": "Potential risks and uncertainties",
+      "keywords": [
+        "risk",
+        "uncertainty",
+        "volatile",
+        "risky"
+      ]
+    },
+    {
+      "id": "impact",
+      "name": "Societal Impact",
+      "domain": "general",
+      "weight": 0.7,
+      "description": "Impact on society and the world",
+      "keywords": [
+        "impact",
+        "society",
+        "change",
+        "world"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai",
+      "target": "ml",
+      "connection_strength": 0.95,
+      "edge_type": "contains"
+    },
+    {
+      "source": "ai",
+      "target": "dl",
+      "connection_strength": 0.9,
+      "edge_type": "contains"
+    },
+    {
+      "source": "ai",
+      "target": "nlp",
+      "connection_strength": 0.85,
+      "edge_type": "contains"
+    },
+    {
+      "source": "ai",
+      "target": "cv",
+      "connection_strength": 0.9,
+      "edge_type": "contains"
+    },
+    {
+      "source": "ai",
+      "target": "robotics",
+      "connection_strength": 0.7,
+      "edge_type": "related"
+    },
+    {
+      "source": "ai",
+      "target": "ai_engineer",
+      "connection_strength": 0.9500000000000001,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "ai",
+      "target": "research_scientist",
+      "connection_strength": 0.8,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "ai",
+      "target": "data_science",
+      "connection_strength": 0.9,
+      "edge_type": "related"
+    },
+    {
+      "source": "ai",
+      "target": "automation",
+      "connection_strength": 0.8,
+      "edge_type": "enables"
+    },
+    {
+      "source": "ai",
+      "target": "ethics",
+      "connection_strength": 0.65,
+      "edge_type": "related"
+    },
+    {
+      "source": "ai",
+      "target": "jobs",
+      "connection_strength": 0.85,
+      "edge_type": "affects"
+    },
+    {
+      "source": "ai",
+      "target": "startup_founder",
+      "connection_strength": 0.7,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "ml",
+      "target": "dl",
+      "connection_strength": 0.9,
+      "edge_type": "contains"
+    },
+    {
+      "source": "ml",
+      "target": "data_science",
+      "connection_strength": 0.85,
+      "edge_type": "related"
+    },
+    {
+      "source": "ml",
+      "target": "ai_engineer",
+      "connection_strength": 0.9,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "dl",
+      "target": "nlp",
+      "connection_strength": 0.8,
+      "edge_type": "enables"
+    },
+    {
+      "source": "dl",
+      "target": "cv",
+      "connection_strength": 0.8,
+      "edge_type": "enables"
+    },
+    {
+      "source": "dl",
+      "target": "research_scientist",
+      "connection_strength": 0.85,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "data_science",
+      "target": "data_engineer",
+      "connection_strength": 0.8,
+      "edge_type": "related"
+    },
+    {
+      "source": "data_science",
+      "target": "research",
+      "connection_strength": 0.7,
+      "edge_type": "related"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "soc",
+      "connection_strength": 0.9500000000000001,
+      "edge_type": "contains"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "pentesting",
+      "connection_strength": 0.9500000000000001,
+      "edge_type": "contains"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "threat_hunting",
+      "connection_strength": 0.85,
+      "edge_type": "contains"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "certifications",
+      "connection_strength": 0.8,
+      "edge_type": "requires"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "security_analyst",
+      "connection_strength": 0.9500000000000001,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "red_team",
+      "connection_strength": 0.85,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "consultant",
+      "connection_strength": 0.8,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "cloud",
+      "connection_strength": 0.7,
+      "edge_type": "related"
+    },
+    {
+      "source": "cybersecurity",
+      "target": "stability",
+      "connection_strength": 0.85,
+      "edge_type": "provides"
+    },
+    {
+      "source": "soc",
+      "target": "security_analyst",
+      "connection_strength": 0.9500000000000001,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "pentesting",
+      "target": "red_team",
+      "connection_strength": 0.9,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "web_dev",
+      "target": "frontend",
+      "connection_strength": 0.95,
+      "edge_type": "contains"
+    },
+    {
+      "source": "web_dev",
+      "target": "backend_dev",
+      "connection_strength": 0.95,
+      "edge_type": "contains"
+    },
+    {
+      "source": "web_dev",
+      "target": "full_stack",
+      "connection_strength": 0.9,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "web_dev",
+      "target": "freelance",
+      "connection_strength": 0.75,
+      "edge_type": "enables"
+    },
+    {
+      "source": "web_dev",
+      "target": "startup_founder",
+      "connection_strength": 0.7,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "web_dev",
+      "target": "remote_work",
+      "connection_strength": 0.8,
+      "edge_type": "enables"
+    },
+    {
+      "source": "web_dev",
+      "target": "mobile_dev",
+      "connection_strength": 0.7,
+      "edge_type": "related"
+    },
+    {
+      "source": "frontend",
+      "target": "full_stack",
+      "connection_strength": 0.85,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "backend_dev",
+      "target": "full_stack",
+      "connection_strength": 0.85,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "backend_dev",
+      "target": "cloud",
+      "connection_strength": 0.75,
+      "edge_type": "related"
+    },
+    {
+      "source": "cloud",
+      "target": "devops",
+      "connection_strength": 0.85,
+      "edge_type": "related"
+    },
+    {
+      "source": "cloud",
+      "target": "cloud_architect",
+      "connection_strength": 0.9,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "ai_engineer",
+      "target": "salary",
+      "connection_strength": 0.9,
+      "edge_type": "affects"
+    },
+    {
+      "source": "ai_engineer",
+      "target": "growth",
+      "connection_strength": 0.9,
+      "edge_type": "affects"
+    },
+    {
+      "source": "ai_engineer",
+      "target": "jobs",
+      "connection_strength": 0.85,
+      "edge_type": "affects"
+    },
+    {
+      "source": "research_scientist",
+      "target": "research",
+      "connection_strength": 0.95,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "research_scientist",
+      "target": "education",
+      "connection_strength": 0.8,
+      "edge_type": "requires"
+    },
+    {
+      "source": "startup_founder",
+      "target": "risk",
+      "connection_strength": 0.85,
+      "edge_type": "involves"
+    },
+    {
+      "source": "startup_founder",
+      "target": "innovation",
+      "connection_strength": 0.9,
+      "edge_type": "requires"
+    },
+    {
+      "source": "startup_founder",
+      "target": "leadership",
+      "connection_strength": 0.8,
+      "edge_type": "requires"
+    },
+    {
+      "source": "security_analyst",
+      "target": "salary",
+      "connection_strength": 0.8,
+      "edge_type": "affects"
+    },
+    {
+      "source": "security_analyst",
+      "target": "stability",
+      "connection_strength": 0.9,
+      "edge_type": "provides"
+    },
+    {
+      "source": "red_team",
+      "target": "salary",
+      "connection_strength": 0.85,
+      "edge_type": "affects"
+    },
+    {
+      "source": "consultant",
+      "target": "networking",
+      "connection_strength": 0.8,
+      "edge_type": "requires"
+    },
+    {
+      "source": "full_stack",
+      "target": "salary",
+      "connection_strength": 0.75,
+      "edge_type": "affects"
+    },
+    {
+      "source": "full_stack",
+      "target": "freelance",
+      "connection_strength": 0.8,
+      "edge_type": "enables"
+    },
+    {
+      "source": "full_stack",
+      "target": "remote_work",
+      "connection_strength": 0.85,
+      "edge_type": "enables"
+    },
+    {
+      "source": "jobs",
+      "target": "salary",
+      "connection_strength": 0.85,
+      "edge_type": "related"
+    },
+    {
+      "source": "jobs",
+      "target": "growth",
+      "connection_strength": 0.8,
+      "edge_type": "related"
+    },
+    {
+      "source": "jobs",
+      "target": "competition",
+      "connection_strength": 0.7,
+      "edge_type": "related"
+    },
+    {
+      "source": "growth",
+      "target": "salary",
+      "connection_strength": 0.7,
+      "edge_type": "affects"
+    },
+    {
+      "source": "automation",
+      "target": "jobs",
+      "connection_strength": 0.75,
+      "edge_type": "affects"
+    },
+    {
+      "source": "automation",
+      "target": "impact",
+      "connection_strength": 0.7,
+      "edge_type": "creates"
+    },
+    {
+      "source": "mobile_dev",
+      "target": "freelance",
+      "connection_strength": 0.7,
+      "edge_type": "enables"
+    },
+    {
+      "source": "game_dev",
+      "target": "freelance",
+      "connection_strength": 0.65,
+      "edge_type": "enables"
+    },
+    {
+      "source": "quantum",
+      "target": "research",
+      "connection_strength": 0.8,
+      "edge_type": "related"
+    },
+    {
+      "source": "iot",
+      "target": "cybersecurity",
+      "connection_strength": 0.65,
+      "edge_type": "related"
+    },
+    {
+      "source": "product_mgmt",
+      "target": "leadership",
+      "connection_strength": 0.8,
+      "edge_type": "leads_to"
+    },
+    {
+      "source": "open_source",
+      "target": "networking",
+      "connection_strength": 0.7,
+      "edge_type": "enables"
+    },
+    {
+      "source": "education",
+      "target": "certifications",
+      "connection_strength": 0.7,
+      "edge_type": "related"
+    }
+  ],
+  "hebbian_weights": {
+    "cybersecurity->soc": 0.05,
+    "cybersecurity->security_analyst": 0.05,
+    "cybersecurity->consultant": 0.05,
+    "cybersecurity->pentesting": 0.05,
+    "ai->ai_engineer": 0.05,
+    "ai->data_science": 0.05,
+    "ai->cv": 0.05,
+    "soc->security_analyst": 0.05,
+    "ai->ethics": 0.05
+  }
+}
