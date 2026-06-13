@@ -9,7 +9,7 @@ ChronoMind is a futuristic "Neuromorphic Future Simulation Engine" that allows u
 - **Timeline Generator**: Generates branching future timelines from activated memories using Monte Carlo sampling.
 - **Probability Engine**: Scores and ranks future outcomes based on node weights, activation strength, and historical associations.
 - **Future Comparison Tool**: Side-by-side comparison of different decision paths using D3.js radar charts.
-- **Time Stone Mode**: A cinematic visualization of 14,000,605 simulated futures, revealing the most likely, top, and rare outcomes.
+- **Time Stone Mode**: A cinematic visualization of 14,000,605 simulated futures, revealing the most likely, top and rare outcomes.
 - **Immersive UI**: Glassmorphic design, WebGL neural nebula backgrounds, and React Flow timeline visualizations.
 
 ## Tech Stack
