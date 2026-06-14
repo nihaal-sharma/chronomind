@@ -1,7 +1,12 @@
 # ChronoMind: The Neuromorphic Future Simulation Engine
-
+<sub>MEMBERS :</sub> 
+- <sub>UTSAV MAKHIJA (25BCE10713)</sub> 
+- <sub>NIHAAL SHARMA (25BCE10296)</sub> 
+- <sub>VATS ABHINAV NAWIN KUMAR (25BAI10238)</sub> 
+- <sub>ABHIGYAN PANDEY (25BAI10989)</sub> 
+##
 ChronoMind is a futuristic "Neuromorphic Future Simulation Engine" that allows users to explore millions of possible futures before making a decision. It simulates alternate realities using a brain-inspired neuromorphic architecture based on memory networks, associative reasoning, probabilistic branching, and adaptive learning.
-
+##
 ## Features
 
 - **Neuromorphic Memory Graph**: A NetworkX-based knowledge graph that stores concepts and their relationships.
