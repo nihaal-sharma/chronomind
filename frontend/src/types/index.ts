@@ -1,7 +1,3 @@
-// ============================================
-// ChronoMind Type Definitions
-// ============================================
-
 export interface MemoryNode {
   id: string;
   name: string;
