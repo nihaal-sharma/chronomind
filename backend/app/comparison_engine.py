@@ -1,9 +1,8 @@
-"""Comparison Engine — Compare two decision paths on multiple axes."""
 from .memory_engine import MemoryEngine
 from .activation_engine import ActivationEngine
 
 
-# Domain knowledge for comparison axes
+
 COMPARISON_DATA = {
     "ai": {
         "opportunity": 94, "demand": 92, "growth": 95,
@@ -63,7 +62,7 @@ COMPARISON_DATA = {
     },
 }
 
-# Default for unknown domains
+
 DEFAULT_SCORES = {
     "opportunity": 50, "demand": 50, "growth": 50,
     "risk": 50, "stability": 50, "income": 50,
@@ -103,7 +102,7 @@ class ComparisonEngine:
                 "score_b": data_b[axis],
             })
 
-        # Generate recommendation
+
         score_a_total = sum(data_a[a] for a in axes if a != "risk") - data_a["risk"]
         score_b_total = sum(data_b[a] for a in axes if a != "risk") - data_b["risk"]
 
@@ -146,7 +145,7 @@ class ComparisonEngine:
         """Find comparison data for a decision."""
         decision_lower = decision.lower()
 
-        # Direct keyword match
+
         for key, data in COMPARISON_DATA.items():
             node = self.memory.get_node(key)
             if not node:
@@ -158,12 +157,12 @@ class ComparisonEngine:
             if any(kw in decision_lower for kw in keywords) or name in decision_lower:
                 return data
 
-        # Try matching on label
+
         for key, data in COMPARISON_DATA.items():
             if data["label"].lower() in decision_lower or decision_lower in data["label"].lower():
                 return data
 
-        # Fallback
+
         result = dict(DEFAULT_SCORES)
         result["label"] = decision.title()
         return result
