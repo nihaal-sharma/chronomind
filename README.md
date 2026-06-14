@@ -32,7 +32,7 @@ ChronoMind is a futuristic "Neuromorphic Future Simulation Engine" that allows u
 
 ## Running the Application
 
-### Local Setup (Recommended)
+### Local Setup
 
 #### Backend
 1. Navigate to the `backend` directory:
@@ -80,6 +80,3 @@ docker-compose up --build
 - `/backend`: Python FastAPI application containing the memory engine, timeline generator, and API endpoints.
 - `/frontend`: React application containing the UI components, pages, and visualizations.
 - `docker-compose.yml`: Docker composition for easy deployment.
-
-## Hackathon Context
-This project was built to demonstrate a novel approach to decision-making and future simulation, leveraging graph theory, probabilistic models, and an immersive, futuristic user interface.
