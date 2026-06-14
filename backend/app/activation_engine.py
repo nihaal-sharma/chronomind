@@ -1,10 +1,8 @@
-"""Neural Activation Engine — Spreading activation through the memory graph."""
 import networkx as nx
 from .memory_engine import MemoryEngine
 
 
 class ActivationEngine:
-    """Handles neural activation and spreading activation through the memory graph."""
 
     def __init__(self, memory: MemoryEngine):
         self.memory = memory
@@ -21,11 +19,11 @@ class ActivationEngine:
         3. Spread activation through graph edges
         4. Return activated subgraph
         """
-        # Reset all activations
+
         for node_id in self.memory.graph.nodes:
             self.memory.graph.nodes[node_id]["activation_score"] = 0.0
 
-        # Find matching nodes
+
         matches = self.memory.find_nodes_by_keywords(text)
 
         if not matches:
@@ -35,7 +33,7 @@ class ActivationEngine:
                 "total_activated": 0,
             }
 
-        # Set initial activation
+
         initially_activated = []
         for match in matches:
             node_id = match["id"]
@@ -48,7 +46,7 @@ class ActivationEngine:
                 "source": "direct_match",
             })
 
-        # Spread activation using BFS
+
         spread_log = []
         visited = set(m["id"] for m in matches)
         frontier = [(m["id"], m["match_score"]) for m in matches]
@@ -56,7 +54,7 @@ class ActivationEngine:
         for depth in range(1, self.max_depth + 1):
             next_frontier = []
             for node_id, parent_activation in frontier:
-                # Get all neighbors (both directions in directed graph)
+
                 neighbors = set()
                 neighbors.update(self.memory.graph.successors(node_id))
                 neighbors.update(self.memory.graph.predecessors(node_id))
@@ -65,7 +63,7 @@ class ActivationEngine:
                     if neighbor_id in visited:
                         continue
 
-                    # Calculate spread activation
+
                     edge_strength = 1.0
                     if self.memory.graph.has_edge(node_id, neighbor_id):
                         edge_strength = self.memory.graph[node_id][neighbor_id].get("connection_strength", 1.0)
@@ -96,7 +94,7 @@ class ActivationEngine:
 
             frontier = next_frontier
 
-        # Collect all activated nodes
+
         all_activated = []
         for node_id in self.memory.graph.nodes:
             score = self.memory.graph.nodes[node_id]["activation_score"]
