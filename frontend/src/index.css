@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-/* ============================================
-   ChronoMind Design System — Arcane Neural Interface
-   ============================================ */
-
 @theme {
   --color-void: #000000;
   --color-surface: #131313;
@@ -56,9 +52,7 @@
   --radius-full: 9999px;
 }
 
-/* ============================================
-   Base Styles
-   ============================================ */
+
 
 * {
   margin: 0;
@@ -87,9 +81,7 @@ body {
   color: var(--color-primary);
 }
 
-/* ============================================
-   Glassmorphism
-   ============================================ */
+
 
 .glass-panel {
   background: rgba(19, 19, 19, 0.12);
@@ -105,9 +97,7 @@ body {
   border: 1px solid rgba(57, 255, 20, 0.1);
 }
 
-/* ============================================
-   Neural Card
-   ============================================ */
+
 
 .neural-card {
   border: 1px solid transparent;
@@ -121,9 +111,7 @@ body {
   border-image: linear-gradient(to bottom right, #39ff14, #131313) 1;
 }
 
-/* ============================================
-   Glow Effects
-   ============================================ */
+
 
 .neural-glow {
   filter: drop-shadow(0 0 15px rgba(57, 255, 20, 0.6));
@@ -141,9 +129,7 @@ body {
   text-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
 }
 
-/* ============================================
-   Animations
-   ============================================ */
+
 
 @keyframes scanline {
   0% { transform: translateY(-100%); }
@@ -210,9 +196,7 @@ body {
   50% { filter: brightness(1.5) drop-shadow(0 0 10px rgba(57, 255, 20, 0.6)); }
 }
 
-/* ============================================
-   Typography Classes
-   ============================================ */
+
 
 .font-display {
   font-family: var(--font-display);
@@ -238,9 +222,7 @@ body {
   text-transform: uppercase;
 }
 
-/* ============================================
-   React Flow Overrides
-   ============================================ */
+
 
 .react-flow__background {
   background: transparent !important;
@@ -275,9 +257,7 @@ body {
   border-radius: 8px !important;
 }
 
-/* ============================================
-   Scrollbar
-   ============================================ */
+
 
 ::-webkit-scrollbar {
   width: 6px;
@@ -297,9 +277,7 @@ body {
   background: var(--color-neon);
 }
 
-/* ============================================
-   Border Gradients
-   ============================================ */
+
 
 .glow-border-emerald {
   border: 1px solid transparent;
