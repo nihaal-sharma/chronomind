@@ -14,7 +14,7 @@ from .probability_engine import ProbabilityEngine
 from .hebbian_learning import HebbianLearning
 from .comparison_engine import ComparisonEngine
 
-# Initialize engines
+
 memory = MemoryEngine()
 activation = ActivationEngine(memory)
 timeline_gen = TimelineGenerator(memory, activation)
@@ -22,7 +22,6 @@ probability = ProbabilityEngine(memory)
 hebbian = HebbianLearning(memory)
 comparison = ComparisonEngine(memory, activation)
 
-# Cached results
 last_simulation_result = None
 
 app = FastAPI(
@@ -64,12 +63,12 @@ async def simulate(request: SimulationRequest):
     """
     global last_simulation_result
 
-    # Combine all text for activation
+
     full_text = f"{request.current_situation} {' '.join(request.decision_options)}"
     if request.context:
         full_text += f" {request.context}"
 
-    # Step 1: Neural activation
+
     activation_result = activation.activate(full_text)
 
     if activation_result["total_activated"] == 0:
@@ -78,15 +77,15 @@ async def simulate(request: SimulationRequest):
             detail="No memory nodes could be activated from the input. Try different keywords.",
         )
 
-    # Step 2: Generate timelines
+   
     timeline_result = timeline_gen.generate(
         request.decision_options, num_futures=100
     )
 
-    # Step 3: Score futures
+
     scored = probability.get_top_futures(timeline_result["all_futures"], n=10)
 
-    # Step 4: Hebbian learning
+
     activated_ids = activation.get_activated_node_ids()[:10]
     learning_result = hebbian.learn(activated_ids)
 
