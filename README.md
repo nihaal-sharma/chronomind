@@ -17,6 +17,9 @@ ChronoMind is a futuristic "Neuromorphic Future Simulation Engine" that allows u
 - **Time Stone Mode**: A cinematic visualization of 14,000,605 simulated futures, revealing the most likely, top and rare outcomes.
 - **Immersive UI**: Glassmorphic design, WebGL neural nebula backgrounds, and React Flow timeline visualizations.
 
+## Future Applications
+Looking toward the future, ChronoMind could have applications in decision support, education, career planning, business strategy, and intelligent simulations. Rather than replacing human decision-making, these systems can help people visualize possibilities, understand risks, and make more informed choices.
+
 ## Tech Stack
 
 ### Frontend
