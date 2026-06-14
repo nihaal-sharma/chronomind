@@ -1,9 +1,9 @@
-"""Hebbian Learning — Connection strengthening through co-activation."""
+
 from .memory_engine import MemoryEngine
 
 
 class HebbianLearning:
-    """Implements Hebbian learning: 'Neurons that fire together wire together.'"""
+
 
     def __init__(self, memory: MemoryEngine, learning_rate: float = 0.05):
         self.memory = memory
@@ -21,7 +21,7 @@ class HebbianLearning:
 
         for i, node_a in enumerate(activated_node_ids):
             for node_b in activated_node_ids[i + 1:]:
-                # Check both directions
+
                 strengthened_edge = None
 
                 if self.memory.graph.has_edge(node_a, node_b):
@@ -29,7 +29,7 @@ class HebbianLearning:
                     new_strength = min(1.0, old_strength + self.learning_rate)
                     self.memory.graph[node_a][node_b]["connection_strength"] = new_strength
 
-                    # Track in Hebbian weights
+
                     key = f"{node_a}->{node_b}"
                     current = self.memory.hebbian_weights.get(key, 0)
                     self.memory.hebbian_weights[key] = current + self.learning_rate
@@ -66,7 +66,7 @@ class HebbianLearning:
                 if strengthened_edge:
                     strengthened.append(strengthened_edge)
 
-        # Save updated weights
+
         if strengthened:
             self.memory.save_graph()
             self.co_activation_log.append({
